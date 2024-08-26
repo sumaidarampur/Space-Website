@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <style>
+    body{
+      background-color: #1e3b70 ;
+    }
+
+    p{
+      color: white;
+      font-size: 17px;
+     }
+    * {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 370px;
+  position: relative;
+  margin: auto;
+}
+.slideshow1 img{
+    margin:0 auto;
+    width: 500%;
+    max-width: 1600px;
+    min-width: 900px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.header a {
+float: left;
+color: white;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 20px;
+line-height: 25px;
+border-radius: 4px;
+font-weight:bold;
+font-family:Georgia, serif;
+}
+.header a:hover {
+background-color: #ddd;
+color: white;
+}
+h1{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+h3{
+  font-size: 14px;
+  font-weight:normal;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="header">
+<div class="header-right">
+<a class="active" href="index.html">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="reference.html">Reference</a>
+<a href="about us.html">About Us</a>
+<a href="feedback.php">Feedback</a>
+
+</div>
+</div><br><br><br><br>
+<h1>SPACE-CRAFTS</h1>
+<div id="slideshow1" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/1.jpg" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/3.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/4.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow1)"></span> 
+</div>
+</div>
+<br>
+<p>A spacecraft is a vehicle or machine designed to fly in outer space. A type of artificial satellite, spacecraft are used for a variety of purposes, including communications, Earth observation, meteorology, navigation, space colonization, planetary exploration, and transportation of humans and cargo. All spacecraft except single-stage-to-orbit vehicles cannot get into space on their own, and require a launch vehicle (carrier rocket).
+
+On a sub-orbital spaceflight, a space vehicle enters space and then returns to the surface without having gained sufficient energy or velocity to make a full orbit of the Earth. For orbital spaceflights, spacecraft enter closed orbits around the Earth or around other celestial bodies. Spacecraft used for human spaceflight carry people on board as crew or passengers from start or on orbit (space stations) only, whereas those used for robotic space missions operate either autonomously or telerobotically. Robotic spacecraft used to support scientific research are space probes. Robotic spacecraft that remains in orbit around a planetary body are artificial satellites. To date, only a handful of interstellar probes, such as Pioneer 10 and 11, Voyager 1 and 2, and New Horizons, are on trajectories that leave the Solar System.</p>
+
+<h1>MISSILES</h1>
+<div id="slideshow2" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/6.jpg" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/7.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/8.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow2)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow2)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow2)"></span> 
+</div>
+</div>
+<br>
+<p>In military terminology,a missile is a guided airborne ranged weapon capable of self-propelled flight usually by a jet engine or rocket motor. Missiles are thus also called guided missiles or guided rockets (when in rocket form). Missiles have five system components: targeting, guidance system, flight system, engine and warhead. Missiles come in types adapted for different purposes: surface-to-surface and air-to-surface missiles (ballistic, cruise, anti-ship, anti-tank, etc.), surface-to-air missiles (and anti-ballistic), air-to-air missiles, and anti-satellite weapons.
+
+Airborne explosive devices without propulsion are referred to as shells if fired by an artillery piece and bombs if dropped by an aircraft. Unguided jet- or rocket-propelled weapons are usually described as rocket artillery.
+
+Historically, the word missile referred to any projectile that is thrown, shot or propelled towards a target; this usage is still recognized today.</p>
+
+<h1>PLANETS IN SOLAR SYSTEM</h1>
+<div id="slideshow3" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="img/11.jpg" style="width:100%">
+  <div class="text">Mercury</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="img/12.jpg" style="width:100%">
+  <div class="text">Jupiter</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="img/13.jpg" style="width:100%">
+  <div class="text">Mars</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="img/14.jpg" style="width:100%">
+  <div class="text">Venus</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="img/15.jpg" style="width:100%">
+  <div class="text">Earth</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="img/16.jpg" style="width:100%">
+  <div class="text">Saturn</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="img/17.jpg" style="width:100%">
+  <div class="text">Neptune</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="img/18.jpg" style="width:100%">
+  <div class="text">Uranus</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="img/19.jpg" style="width:100%">
+  <div class="text">Pluto</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(4, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(5, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(6, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(7, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(8, slideshow3)"></span> 
+  <span class="dot" onclick="currentSlide(9, slideshow3)"></span> 
+  <!-- <span class="dot" onclick="currentSlide(3, slideshow3)"></span>  -->
+
+</div>
+</div>
+<br>
+<p>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it. Of the bodies that orbit the Sun directly, the largest are the four gas and ice giants and the four terrestrial planets, followed by an unknown number of dwarf planets and innumerable small Solar System bodies. Of the bodies that orbit the Sun indirectly—the natural satellites—two are larger than Mercury, the smallest terrestrial planet, and one is nearly as large.
+
+The Solar System formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud. The vast majority of the system's mass is in the Sun, with the majority of the remaining mass contained in Jupiter. The four inner system planets—Mercury, Venus, Earth and Mars—are terrestrial planets, being composed primarily of rock and metal. The four giant planets of the outer system are substantially more massive than the terrestrials. The two largest planets, Jupiter and Saturn, are gas giants, being composed mainly of hydrogen and helium; the next two, Uranus and Neptune, are ice giants, being composed mostly of substances with relatively high melting points compared with hydrogen and helium, called volatiles, such as water, ammonia and methane. All eight have nearly circular orbits that lie close to the plane of the Earth's orbit, called the ecliptic.</p>
+
+<h1>GALAXY(MILKY WAY)</h1>
+<div id="slideshow4" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/21.jpg" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/5.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/20.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow4)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow4)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow4)"></span> 
+</div>
+</div>
+<br>
+<p>
+  The Milky Way is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye. The term Milky Way is a translation of the Latin via lactea, from the Greek γαλακτικός κύκλος (galaktikos kýklos), meaning "milky circle." From Earth, the Milky Way appears as a band because its disk-shaped structure is viewed from within. Galileo Galilei first resolved the band of light into individual stars with his telescope in 1610. Until the early 1920s, most astronomers thought that the Milky Way contained all the stars in the Universe.Following the 1920 Great Debate between the astronomers Harlow Shapley and Heber Curtis,observations by Edwin Hubble showed that the Milky Way is just one of many galaxies.
+
+  The Milky Way is a barred spiral galaxy with an estimated visible diameter of 100,000–200,000 light-years. Recent simulations suggest that a dark matter area, also containing some visible stars, may extend up to a diameter of almost 2 million light-years.The Milky Way has several satellite galaxies and is part of the Local Group of galaxies, which form part of the Virgo Supercluster, which is itself a component of the Laniakea Supercluster.
+</p>
+
+<h1>SATELLITE</h1>
+<div id="slideshow5" class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/22.jpg" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/23.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/25.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1, slideshow5)"></span> 
+  <span class="dot" onclick="currentSlide(2, slideshow5)"></span> 
+  <span class="dot" onclick="currentSlide(3, slideshow5)"></span> 
+</div>
+</div>
+<br>
+<p>
+  A satellite is an object in space that orbits or circles around a bigger object. There are two kinds of satellites: natural (such as the moon orbiting the Earth) or artificial (such as the International Space Station orbiting the Earth).
+
+  There are dozens upon dozens of natural satellites in the solar system, with almost every planet having at least one moon. Saturn, for example, has at least 53 natural satellites, and between 2004 and 2017, it also had an artificial one — the Cassini spacecraft, which explored the ringed planet and its moons.
+
+  Artificial satellites, however, did not become a reality until the mid-20th century. The first artificial satellite was Sputnik, a Russian beach-ball-size space probe that lifted off on Oct. 4, 1957. That act shocked much of the western world, as it was believed the Soviets did not have the capability to send satellites into space.
+</p>
+<script>
+
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+var slideshow3 = document.getElementById("slideshow3");
+slideshow3.currentSlideIndex = 1;
+showSlides(slideshow3.currentSlideIndex, slideshow3);
+
+var slideshow4 = document.getElementById("slideshow4");
+slideshow4.currentSlideIndex = 1;
+showSlides(slideshow4.currentSlideIndex, slideshow4);
+
+var slideshow5 = document.getElementById("slideshow5");
+slideshow5.currentSlideIndex = 1;
+showSlides(slideshow5.currentSlideIndex, slideshow5);
+
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+
+
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+document.addEventListener('contextmenu',event=>event.preventDefault());
+</script>
+<footer>
+<h3>@2021 SPACE All Rights Reserved.<br>
+<a href="mailto:subhanrampure.64@gmail.com">subhanrampure.64@gmail.com</a></h3>
+</footer>
+</body>
+</html>
+
